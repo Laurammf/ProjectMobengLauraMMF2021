@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "lauras-humiliated-cookie-ii",
+    "slug": "snack-70fe0c07-86f3-4128-b2a9-bdc22f2948dd",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+ 
+    "ios": {
+      "bundleIdentifier": "com.transportili.driver",
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ],
+        "LSApplicationQueriesSchemes": [
+          "transportili"
+        ],
+        "NSCameraUsageDescription": "L’application utilise l’appareil photo pour prendre une photo ou numériser vos documents.",
+        "NSLocationWhenInUseUsageDescription": "L’application utilise votre position pour aider les chauffeurs ou les transporteurs à vous trouver sur la carte."
+    }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
